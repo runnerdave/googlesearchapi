@@ -48,7 +48,7 @@ public class GoogleSearchClient {
                 list.setKey(API_KEY);
                 list.setCx(SEARCH_ENGINE_ID);
                 //num results per page
-                list.setNum(2L);
+                //list.setNum(2L);
  
                 //for pagination
                 list.setStart(10L);
