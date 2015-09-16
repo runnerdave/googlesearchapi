@@ -29,7 +29,7 @@ public class GoogleSearchClient {
                for(Result result: resultList){
                    System.out.println(result.getHtmlTitle());
                    System.out.println(result.getFormattedUrl());
-                   //System.out.println(result.getHtmlSnippet());
+                   System.out.println(result.getHtmlSnippet());
                    System.out.println("----------------------------------------");
                }
         }
